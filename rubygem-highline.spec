@@ -3,14 +3,14 @@
 Summary:	A high-level command-line IO library for ruby
 Name:		rubygem-%{oname}
 Version:	1.5.2
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	GPLv2 or Ruby
 Group:		Development/Ruby
 URL:		http://%{oname}.rubyforge.org/
 Source0:	http://gems.rubyforge.org/gems/%{oname}-%{version}.gem
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	ruby-RubyGems
-Requires:	ruby rubygem-ruby-hmac
+Requires:	ruby
 BuildArch:	noarch
 
 %description
