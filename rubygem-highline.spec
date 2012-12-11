@@ -42,3 +42,21 @@ rm -rf %{buildroot}
 %{ruby_gemdir}/gems/%{oname}-%{version}
 %{ruby_gemdir}/specifications/%{oname}-%{version}.gemspec
 
+
+
+%changelog
+* Tue Dec 07 2010 Oden Eriksson <oeriksson@mandriva.com> 1.5.2-3mdv2011.0
++ Revision: 614772
+- the mass rebuild of 2010.1 packages
+
+* Thu Feb 04 2010 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.5.2-2mdv2010.1
++ Revision: 500864
+- drop invalid dependency on rubygem-ruby-hmac
+
+* Thu Feb 04 2010 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.5.2-1mdv2010.1
++ Revision: 500863
+- import rubygem-highline
+
+
+* Mon Feb  4 2010 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.5.2-1
+- initial release
