@@ -3,7 +3,7 @@
 Summary:	A high-level command-line IO library for ruby
 Name:		rubygem-%{oname}
 Version:	1.5.2
-Release:	%mkrel 3
+Release:	4
 License:	GPLv2 or Ruby
 Group:		Development/Ruby
 URL:		http://%{oname}.rubyforge.org/
